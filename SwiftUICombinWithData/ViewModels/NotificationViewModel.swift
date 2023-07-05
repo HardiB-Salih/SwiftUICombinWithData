@@ -11,6 +11,7 @@ import FirebaseMessaging
 
 class NotificationViewModel: ObservableObject {
     // Do desable and enable Notification
+    // All Good
     @Published var permission: UNAuthorizationStatus?
     @AppStorage("subscribedToAllNotifications") var subscribedToAllNotifications: Bool = false {
         didSet {
